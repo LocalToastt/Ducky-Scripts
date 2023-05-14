@@ -1,0 +1,85 @@
+REM Name: WARNING MESSAGE
+REM Author: Local.Toast
+
+REM Open windows notepad
+DELAY 1000
+GUI r
+DELAY 500
+STRING notepad
+DELAY 500
+ENTER
+DELAY 750
+
+STRING WARNING MESSAGE
+ENTER
+DEFAULT_DELAY 50
+
+REM Copy-Paste previous string
+UP
+HOME
+SHIFT DOWN
+CTRL c
+RIGHT
+CTRL v
+CTRL v
+
+REM Alt code input demo
+ALTCHAR 7
+ALTSTRING This line was print using Alt+Numpad input method. It works even if non-US keyboard layout is selected
+ENTER
+
+STRING =
+REPEAT 60
+
+STRING                             /\                             
+ENTER
+HOME
+STRING                            /  \
+ENTER
+HOME
+STRING                           /    \
+ENTER
+HOME
+STRING                          /      \
+ENTER
+HOME
+STRING                         /    |   \
+ENTER
+HOME
+STRING                        /     |    \
+ENTER
+HOME
+STRING                       /      |     \
+ENTER
+HOME
+STRING                      /       |      \
+ENTER
+HOME
+STRING                     /        |       \ 
+ENTER
+HOME
+STRING                    /                  \ 
+ENTER
+HOME
+STRING                   /          O         \
+ENTER
+HOME
+STRING                  /                      \
+ENTER
+HOME
+STRING                  ------------------------
+ENTER
+HOME
+
+STRING =
+REPEAT 60
+
+ENTER
+
+STRING You COULD have been hacked right now. 
+ENTER
+STRING Take this as a warning, if I was anyone else your computer would be unusable at this moment and you would not be reading this instead you would be looking at a black void. 
+ENTER
+STRING In the matter of seconds someone with the tools I used to show you this message could have installed and ran viruses, malware, and spyware at the same time. 
+ENTER
+STRING Take this a your personel warning, Lock your computer. You'll thank me. 
